@@ -1,0 +1,33 @@
+---
+title: Plasează comanda
+description:
+---
+
+
+
+<form id='Checkout' method="post" action="/" onsubmit="event.preventDefault(); sendOrder();">
+  <label>Prenume</label>
+  <input type="text" name="FirstName">
+
+  <label>Nume </label>
+  <input type="text" name="LastName">
+
+  <label>Adresă email</label>
+  <input type="text" name="email">
+
+  <label>Adresă</label>
+  
+
+  <input type="text" name="Street" placeholder="Strada">
+  <input type="text" name="City" placeholder="Orașul">
+  <input type="text" name="State" placeholder="Județ">
+  <input type="text" name="ZipCode" placeholder="Cod poștal">
+
+  <input type="hidden" name="_to" value="">
+  <input type="text" name="_gotcha" style="display: none;">
+
+  <input type="submit" value="Plasează comanda">
+</form>
+
+<script src="http://localhost:4000/js/checkout-email.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
