@@ -1,7 +1,7 @@
 # Site Settings
 title: Celiart
 description: A Celiart Based Shopping Cart Built with simpleCart(js)
-url:
+url: "https://celiart.ro"
 
 # Jekyll Configuration
 encoding: UTF-8
