@@ -1,10 +1,12 @@
 ---
-denumire:
-tip:
-dimensiuni:
-tehnica:
-autor:
-an:
-pret:
-featured_image_path:
+title: "00 00"
+price: 00 ron
+featured_image_path: /images/personalizari/00.jpg
 ---
+
+Lucrat manual!
+
+> - dimensiuni: 00 X 00 cm, 
+> - tehnica: 00, 
+> - autor: 00, 
+> - an: 00
