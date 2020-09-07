@@ -150,6 +150,8 @@
   box-shadow: none;
   overflow: hidden;
   visibility: visible;
+  z-index: 99;
+
   @media (min-width: 800px) {
   	display: none;
   	visibility: hidden;
