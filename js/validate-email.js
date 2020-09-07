@@ -48,13 +48,21 @@ function validateEmail() {
 }
 
 function validateForm() {
-    if (!validateName() || !validatePhone() || !validateEmail()) {
+    if (!validateName() || !validateEmail()) {
 
-      alert("Form not submitted");//Validation Message
+    //   alert("Form not submitted");
+      //Validation Message
       return false;
     }
     else {
+        if(typeof sendMessage === "function"){
+            sendMessage();
+        }
+
+        if(typeof sendOrder === "function"){
+            sendOrder();
+        }
       submitted=true;
       return true;
-    }
+    }    
   }
