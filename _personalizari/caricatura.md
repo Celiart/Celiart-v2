@@ -1,6 +1,6 @@
 ---
 title: "Caricatură"
-price: 50 ron
+price: 50
 
 featured_image_path: /images/personalizari/caricatura.jpg
 

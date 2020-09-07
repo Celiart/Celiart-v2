@@ -1,6 +1,6 @@
 ---
 title: "Toamna insingurata"
-price: 100 RON
+price: 100
 featured_image_path: /images/products/tablouri/tomna_insingurata.jpg
 ---
 

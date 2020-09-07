@@ -1,6 +1,6 @@
 ---
 title: Produs nou 2019
-price: 110 ron
+price: 110
 featured_image_path: "/uploads/img-20180908-211949.jpg"
 ---
 

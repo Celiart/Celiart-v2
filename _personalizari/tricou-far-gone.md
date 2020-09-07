@@ -1,6 +1,6 @@
 ---
 title: "Tricou Far gone"
-price: 60 ron
+price: 60
 featured_image_path: /images/personalizari/far_gone_v1.jpg
 ---
 

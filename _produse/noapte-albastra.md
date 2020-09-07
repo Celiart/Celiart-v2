@@ -1,6 +1,6 @@
 ---
 title: "Noapte albastră"
-price: 60 ron
+price: 60
 featured_image_path: /images/products/Tablouri/noapte_albastra.jpg
 ---
 

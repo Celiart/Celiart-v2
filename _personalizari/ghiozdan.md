@@ -1,6 +1,6 @@
 ---
 title: "Ghiozdan personalizat"
-price: 50 ron
+price: 50
 
 featured_image_path: /images/personalizari/ghiozdan.jpg
 featured_image_path: /images/personalizari/ghiozdan_2.jpg

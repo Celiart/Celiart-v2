@@ -1,6 +1,6 @@
 ---
 title: "00 00"
-price: 00 ron
+price: 00
 featured_image_path: /images/products/tablouri/00.jpg
 ---
 

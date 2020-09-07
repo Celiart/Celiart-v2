@@ -1,6 +1,6 @@
 ---
 title: Tricou La multi ani!
-price: 50 ron
+price: 50
 featured_image_path: /images/personalizari/la_multi_ani.jpg
 ---
 

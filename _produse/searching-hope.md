@@ -1,6 +1,6 @@
 ---
 title: "Searching hope"
-price: 60 RON
+price: 60
 featured_image_path: /images/products/tablouri/searching_hope.jpg
 ---
 

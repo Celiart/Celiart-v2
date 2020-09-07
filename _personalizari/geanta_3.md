@@ -1,6 +1,6 @@
 ---
 title: "Geantă personalizată"
-price: 80 ron
+price: 80
 
 featured_image_path: /images/personalizari/code_geass.jpg
 

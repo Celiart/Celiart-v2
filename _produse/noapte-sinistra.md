@@ -1,6 +1,6 @@
 ---
 title: "Noapte sinstră"
-price: 60 RON
+price: 60
 featured_image_path: /images/products/tablouri/noapte_sinistra.jpg
 ---
 

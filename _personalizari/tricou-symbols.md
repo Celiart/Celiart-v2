@@ -1,6 +1,6 @@
 ---
 title: "Tricou Symbols"
-price: 60 ron
+price: 60
 featured_image_path: /images/personalizari/simbols.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Tricou Zlatan Ibrahimović"
-price: 60 ron
+price: 60
 featured_image_path: /images/personalizari/10_for_football.jpg
 ---
 

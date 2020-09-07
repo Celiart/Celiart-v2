@@ -1,6 +1,6 @@
 ---
 title: "Inspiratie mediteraneană"
-price: 60 RON
+price: 60
 featured_image_path: /images/products/tablouri/inspiratie_mediteraneana.jpg
 ---
 

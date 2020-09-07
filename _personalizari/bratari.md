@@ -1,6 +1,6 @@
 ---
 title: "Brățări"
-price: 10 ron
+price: 10
 featured_image_path: /images/personalizari/bratari.jpg
 ---
 

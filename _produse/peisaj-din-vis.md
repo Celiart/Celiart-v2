@@ -1,6 +1,6 @@
 ---
 title: "Peisaj din vis"
-price: 60 RON
+price: 60
 featured_image_path: /images/products/tablouri/peisaj_din_vis.jpg
 ---
 

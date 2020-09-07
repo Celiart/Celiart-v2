@@ -1,6 +1,6 @@
 ---
 title: "Booded hydrangea"
-price: 60 ron
+price: 60
 featured_image_path: /images/products/tablouri/blooded_hydrangea.jpg
 ---
 

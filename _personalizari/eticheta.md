@@ -1,6 +1,6 @@
 ---
 title: "Etichetă personalizată"
-price: 20 ron
+price: 20
 featured_image_path: /images/personalizari/eticheta.jpg
 ---
 

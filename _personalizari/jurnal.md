@@ -1,6 +1,6 @@
 ---
 title: "Juranl personalizat "
-price: 100 ron
+price: 100
 featured_image_path: /images/personalizari/jurnal.jpg
 ---
 

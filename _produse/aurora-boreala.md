@@ -1,6 +1,6 @@
 ---
 title: "Aurora boreala"
-price: 60 ron
+price: 60
 featured_image_path: /images/products/tablouri/aurora_boreala.jpg
 ---
 

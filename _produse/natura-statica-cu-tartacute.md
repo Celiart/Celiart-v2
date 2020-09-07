@@ -1,6 +1,6 @@
 ---
 title: "Natura statica cu tartacute"
-price: 60 RON
+price: 60
 featured_image_path: /images/products/tablouri/natura_statica_cu_tartacute.jpg
 ---
 

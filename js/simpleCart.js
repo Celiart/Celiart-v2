@@ -63,7 +63,7 @@
 				// Currencies
 				currencies = {
 					"USD": { code: "USD", symbol: "&#36;", name: "US Dollar" },
-					"LEI": { code: "LEI", symbol: "LEI", name: "LEI" },
+					"RON": { code: "ron", symbol: "ron", name: "ron", after: true },
 					"AUD": { code: "AUD", symbol: "&#36;", name: "Australian Dollar" },
 					"BRL": { code: "BRL", symbol: "R&#36;", name: "Brazilian Real" },
 					"CAD": { code: "CAD", symbol: "&#36;", name: "Canadian Dollar" },
@@ -89,7 +89,7 @@
 				// default options
 				settings = {
 					checkout				: { type: "PayPal", email: "you@yours.com" },
-					currency				: "LEI",
+					currency				: "RON",
 					language				: "english-us",
 
 					cartStyle				: "div",
