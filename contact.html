@@ -8,12 +8,12 @@ facebook_image_path:
 <p class="editable">Ne-ar place să auzim părerea ta!</p>
 
 
-<form method="post" action="" onsubmit="event.preventDefault(); sendMessage();">
+<form method="post" action="" onsubmit="event.preventDefault(); validateForm(); sendMessage();">
   <label>Nume și prenume</label>
-  <input type="text" name="name" required>
+  <input type="text" name="name" id="name" required>
 
   <label>Email</label>
-  <input type="text" name="email" required>
+  <input type="text" name="email" id="email" required>
 
   <label>Mesajul dumneavoastră</label>
   <textarea name="message" required></textarea>
@@ -25,4 +25,5 @@ facebook_image_path:
 </form>
 
 <script async src="/js/contact-email.js"></script>
+<script async src="/js/validate-email.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>

@@ -32,10 +32,10 @@ defaults:
 #     type: posts
 #   values:
 #     layout: post
-# - scope:
-#     type: pages
-#   values:
-#     layout: page
+- scope:
+    type: pages
+  values:
+    layout: page
 - scope:
     type: produse
   values:

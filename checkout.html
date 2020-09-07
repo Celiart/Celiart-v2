@@ -7,13 +7,13 @@ description:
 
 <form id='Checkout' method="post" action="/" onsubmit="event.preventDefault(); sendOrder();">
   <label>Prenume</label>
-  <input type="text" name="FirstName">
+  <input type="text" name="FirstName" id="name">
 
   <label>Nume </label>
-  <input type="text" name="LastName">
+  <input type="text" name="LastName" id="nameTwo">
 
   <label>Adresă email</label>
-  <input type="text" name="email">
+  <input type="text" name="email" id="email">
 
   <label>Adresă</label>
   
@@ -30,4 +30,5 @@ description:
 </form>
 
 <script src="/js/checkout-email.js"></script>
+<script src="/js/validate-email.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>

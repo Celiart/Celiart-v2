@@ -1,21 +1,3 @@
-function sendMessage() {
-    const name = document.getElementsByName('name')[0].value;
-    const email = document.getElementsByName('email')[0].value;
-    const message = document.getElementsByName('message')[0].value;
-
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "ligia.bodnaras@student.usv.ro",
-        Password: "Student3302499",
-        To: 'ligia.bodnaras@student.usv.ro',
-        From: email,
-        Subject: "Contact",
-        Body: message,
-    }).then(
-        res => alert("Mesaj trimis")
-    )
-};
-
 function sendOrder() {
     var elements = document.getElementById("Checkout").elements;
     var data ={};
