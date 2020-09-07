@@ -1,10 +1,6 @@
 ---
-denumire: "Searching hope"
-dimensiuni: 48 X 35 cm
-tehnica: acrilic pe hârtie
-autor: Cecilia
-an: 2019
-pret: 60 RON
+title: "Searching hope"
+price: 60 RON
 featured_image_path: /images/products/tablouri/searching_hope.jpg
 ---
 
