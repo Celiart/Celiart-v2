@@ -1,2 +1,4 @@
 _site/
 .jekyll-cache/
+_site/css/main.css.map
+_site/feed.xml
