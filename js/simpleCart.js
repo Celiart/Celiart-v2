@@ -466,7 +466,7 @@
 							simpleCart.add(item, true);
 						});
 					} catch (e){
-						simpleCart.error( "Error Loading data: " + e );
+						simpleCart.error( "Eroare la încărcarea datelor: " + e );
 					}
 
 
@@ -898,7 +898,7 @@
 						}
 						
 					} else {
-						simpleCart.error("No Valid Checkout Method Specified");
+						simpleCart.error("Nu ai specificat un coș de cumpărături valid!");
 					}
 				},
 				extendCheckout: function (methods) {
@@ -924,7 +924,7 @@
 				PayPal: function (opts) {
 					// account email is required
 					if (!opts.email) {
-						return simpleCart.error("No email provided for PayPal checkout");
+						return simpleCart.error("Nu ai specificat nici un e-mail pentru plata PayPal.");
 					}
 
 					// build basic form options
@@ -1852,8 +1852,7 @@
 				}
 
 				try {
-					// If IE is used, use the trick by Diego Perini
-					// http://javascript.nwbox.com/IEContentLoaded/
+					
 					document.documentElement.doScroll("left");
 				} catch (e) {
 					setTimeout(doScrollCheck, 1);
