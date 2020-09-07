@@ -125,10 +125,10 @@ function validateMessage() {
             return false;
 
         }
-        if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-            alert("Introdu un nume si prenume valid!"); //Validation Message
-            return false;
-        }
+        // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+        //     alert("Introdu un nume si prenume valid!"); //Validation Message
+        //     return false;
+        // }
     }
 
     return true;
