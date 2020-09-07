@@ -108,7 +108,7 @@ function validateZipCode() {
             return false;
 
         }
-        if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+        if (!name.match(/^[0]?[789]\d{5}$/)) {
             alert("Introdu un cod poștal valid!"); //Validation Message
             return false;
         }
