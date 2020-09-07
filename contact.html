@@ -10,13 +10,13 @@ facebook_image_path:
 
 <form method="post" action="" onsubmit="event.preventDefault(); validateForm();">
   <label>Nume și prenume</label>
-  <input type="text" name="name" id="name" required>
+  <input type="text" name="name" id="name">
 
   <label>Email</label>
-  <input type="text" name="email" id="email" required>
+  <input type="text" name="email" id="email">
 
   <label>Mesajul dumneavoastră</label>
-  <textarea name="message" required></textarea>
+  <textarea name="message" id="message"></textarea>
 
   <input type="hidden" value="{{ page.emails | join: ',' }}" name="_to">
   <input type="text" style="display: none;" name="_gotcha">
