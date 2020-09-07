@@ -1,12 +1,12 @@
 ---
-title: "Disvover"
+title: Discover
 price: 60 RON
 featured_image_path: /images/products/tablouri/discover.jpg
 ---
 
-Lucrat cu măiestrie!
+Lucrat cu măiestrie\!
 
-> - dimensiuni: 40 X 30 cm 
-> - tehnica: acrilic pe hârtie 
-> - autor: Cecilia
-> - an: 2019
+> * dimensiuni: 40 X 30 cm
+> * tehnica: acrilic pe h&acirc;rtie
+> * autor: Cecilia
+> * an: 2019
