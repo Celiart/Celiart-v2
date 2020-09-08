@@ -8,3 +8,4 @@ simpleCart.ready(function() {
     $('form').append('<input type="hidden" name="' + item.get('id') + ' Total" value="' + item.get('total') + '">');
   });
 });
+
