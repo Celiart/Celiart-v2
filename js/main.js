@@ -13,8 +13,6 @@ simpleCart({
   cartColumns: [
     { attr: "name" , label: "Nume" } ,
     { attr: "price" , label: "Preț", view: 'currency' } ,
-   // { attr: "size" , label: "Size" } ,
-   // { attr: "color" , label: "Color" } ,
     { view: "decrement" , label: false , text: "- 1" } ,
     { attr: "quantity" , label: "Cantitate" } ,
     { view: "increment" , label: false , text: "+ 1" } ,

@@ -2,7 +2,7 @@ function sendMessage() {
     const name = document.getElementsByName('name')[0].value;
     const email = document.getElementsByName('email')[0].value;
     const message = document.getElementsByName('message')[0].value;
-    // const body = "Nume: " . name . ", Mesaj: " . message;
+    const body = "Nume: " + name + ", Mesaj: " + message;
 
     Email.send({
         Host: "smtp.gmail.com",
@@ -11,7 +11,7 @@ function sendMessage() {
         To: 'ligia.bodnaras@student.usv.ro',
         From: email,
         Subject: "Contact Celiart Formular",
-        Body: message,
+        Body: body,
     }).then(
         res => alert("Mesaj trimis")
     )

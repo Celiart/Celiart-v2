@@ -57,10 +57,6 @@ function validateStreet() {
             return false;
 
         }
-        // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-        //     alert("Introdu o stradă validă!"); //Validation Message
-        //     return false;
-        // }
     }
 
     return true;
@@ -125,10 +121,6 @@ function validateMessage() {
             return false;
 
         }
-        // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-        //     alert("Introdu un nume si prenume valid!"); //Validation Message
-        //     return false;
-        // }
     }
 
     return true;
@@ -169,19 +161,20 @@ function validateEmail() {
 function validateForm() {
     if (!validateName() || !validateFirstName() || !validateLastName() || !validateEmail() || !validateStreet() || !validateCity() || !validateState() || !validateMessage() || !validateZipCode()) {
         //alert("Form not submitted");
-        //Validation Message
         return false;
 
     } else {
         if (typeof sendMessage === "function") {
             sendMessage();
+            document.getElementById('contactForm').reset();
+            document.location.href = '/thank-you/';
         }
 
         if (typeof sendOrder === "function") {
             sendOrder();
             simpleCart.empty();
             document.getElementById('Checkout').reset();
-            document.location.href = '/thank-you/'
+            document.location.href = '/confirm-order/';
         }
         submitted = true;
         return true;
